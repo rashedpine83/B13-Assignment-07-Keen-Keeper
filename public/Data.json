@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "picture": "https://randomuser.me/api/portraits/men/1.jpg",
+    "email": "john@example.com",
+    "days_since_contact": 12,
+    "status": "Almost Due",
+    "tags": ["college", "close friend"],
+    "bio": "Met in university. Love hiking together.",
+    "goal": 14,
+    "next_due_date": "2025-07-20"
+  },
+  {
+    "id": 2,
+    "name": "Sarah Smith",
+    "picture": "https://randomuser.me/api/portraits/women/2.jpg",
+    "email": "sarah@example.com",
+    "days_since_contact": 5,
+    "status": "Overdue",
+    "tags": ["office", "team mate"],
+    "bio": "Works in same company. Very helpful.",
+    "goal": 10,
+    "next_due_date": "2025-07-25"
+  },
+  {
+    "id": 3,
+    "name": "Michael Brown",
+    "picture": "https://randomuser.me/api/portraits/men/3.jpg",
+    "email": "michael@example.com",
+    "days_since_contact": 20,
+    "status": "overdue",
+    "tags": ["gym", "buddy"],
+    "bio": "Workout partner from gym.",
+    "goal": 7,
+    "next_due_date": "2025-07-18"
+  },
+  {
+    "id": 4,
+    "name": "Emily Davis",
+    "picture": "https://randomuser.me/api/portraits/women/4.jpg",
+    "email": "emily@example.com",
+    "days_since_contact": 2,
+    "status": "On-Track",
+    "tags": ["family", "cousin"],
+    "bio": "Cousin living in another city.",
+    "goal": 15,
+    "next_due_date": "2025-08-01"
+  },
+  {
+    "id": 5,
+    "name": "David Wilson",
+    "picture": "https://randomuser.me/api/portraits/men/5.jpg",
+    "email": "david@example.com",
+    "days_since_contact": 30,
+    "status": "overdue",
+    "tags": ["school", "old friend"],
+    "bio": "School friend, lost contact recently.",
+    "goal": 10,
+    "next_due_date": "2025-07-15"
+  },
+  {
+    "id": 6,
+    "name": "Sophia Taylor",
+    "picture": "https://randomuser.me/api/portraits/women/6.jpg",
+    "email": "sophia@example.com",
+    "days_since_contact": 7,
+    "status": "On-Track",
+    "tags": ["project", "client"],
+    "bio": "Client from freelance project.",
+    "goal": 14,
+    "next_due_date": "2025-07-28"
+  },
+  {
+    "id": 7,
+    "name": "James Anderson",
+    "picture": "https://randomuser.me/api/portraits/men/7.jpg",
+    "email": "james@example.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["travel", "friend"],
+    "bio": "Met during a trip abroad.",
+    "goal": 12,
+    "next_due_date": "2025-07-22"
+  },
+  {
+    "id": 8,
+    "name": "Olivia Thomas",
+    "picture": "https://randomuser.me/api/portraits/women/8.jpg",
+    "email": "olivia@example.com",
+    "days_since_contact": 3,
+    "status": "Almost-Due",
+    "tags": ["neighbor"],
+    "bio": "Friendly neighbor next door.",
+    "goal": 7,
+    "next_due_date": "2025-07-30"
+  },
+  {
+    "id": 9,
+    "name": "Daniel White",
+    "picture": "https://randomuser.me/api/portraits/men/9.jpg",
+    "email": "daniel@example.com",
+    "days_since_contact": 25,
+    "status": "Almost-Due",
+    "tags": ["business", "partner"],
+    "bio": "Business partner for startup.",
+    "goal": 10,
+    "next_due_date": "2025-07-19"
+  },
+  {
+    "id": 10,
+    "name": "Ava Martinez",
+    "picture": "https://randomuser.me/api/portraits/women/10.jpg",
+    "email": "ava@example.com",
+    "days_since_contact": 1,
+    "status": "On-Track",
+    "tags": ["best friend"],
+    "bio": "Best friend since childhood.",
+    "goal": 20,
+    "next_due_date": "2025-08-05"
+  }
+]
