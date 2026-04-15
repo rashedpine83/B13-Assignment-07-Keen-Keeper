@@ -118,5 +118,29 @@
     "bio": "Best friend since childhood.",
     "goal": 20,
     "next_due_date": "2025-08-05"
+  },
+  {
+    "id": 11,
+    "name": "Liam Johnson",
+    "picture": "https://randomuser.me/api/portraits/men/11.jpg",
+    "email": "liam@example.com",
+    "days_since_contact": 9,
+    "status": "Almost-Due",
+    "tags": ["football", "friend"],
+    "bio": "Play football together on weekends.",
+    "goal": 10,
+    "next_due_date": "2025-07-27"
+  },
+  {
+    "id": 12,
+    "name": "Mia Clark",
+    "picture": "https://randomuser.me/api/portraits/women/12.jpg",
+    "email": "mia@example.com",
+    "days_since_contact": 16,
+    "status": "overdue",
+    "tags": ["university", "classmate"],
+    "bio": "Studied together in university.",
+    "goal": 12,
+    "next_due_date": "2025-07-21"
   }
 ]

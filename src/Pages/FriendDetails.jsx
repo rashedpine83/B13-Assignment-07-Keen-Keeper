@@ -96,7 +96,7 @@ const FriendDetails = () => {
             <div className='grid row-span-3 col-span-1 p-3 text-left mb-4'>
                 <p className='text-xl font-medium'>Quick Check-in</p>                
             </div>
-            <div className='grid grid-cols-3 gap-3 '>
+            <div className='grid grid-cols-3 gap-15 '>
                 <Link className="shadow-lg p-4 ">
                     <img src={callImage} alt="call image" className='mx-auto mb-2'/>
                     <p className='text-lg'>Call</p>
