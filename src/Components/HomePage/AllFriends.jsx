@@ -10,8 +10,8 @@ const AllFriends = () => {
     return (
         <div>
             <div className='border-t border-gray-200 my-10 container mx-auto'></div>
-            <div className='container mx-auto'>
-                <h2 className='text-2xl font-semibold mb-10'>Your Friends..</h2>
+            <div className='container mx-auto '>
+                <h2 className='text-2xl font-semibold mb-10 text-center md:text-left '>Your Friends..</h2>
             </div>
             {
                 loading ? (
