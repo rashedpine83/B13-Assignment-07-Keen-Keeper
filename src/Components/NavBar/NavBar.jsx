@@ -24,7 +24,7 @@ const NavBar = () => {
 
         <li className='font-semibold'>
             <MyNavLink to='/status' className='flex items-center gap-2'>
-                <PiChartLineBold /> Status
+                <PiChartLineBold /> Stats
             </MyNavLink>
         </li>
     </>;

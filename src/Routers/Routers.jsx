@@ -2,9 +2,10 @@ import { createBrowserRouter } from "react-router";
 import HomePage from "../Pages/HomePage";
 import RootLayout from "../Layout/RootLayout";
 import Timeline from "../Components/Timeline/Timeline";
-import Status from "../Components/Status/Status";
 import AllFriends from "../Components/HomePage/AllFriends";
 import FriendDetails from "../Pages/FriendDetails";
+import Dashboard from "../Components/Status/Status";
+
 
 export const router = createBrowserRouter([
   {
@@ -26,7 +27,7 @@ export const router = createBrowserRouter([
       },
       {
         path: '/status',
-        element: <Status></Status>
+        element: <Dashboard></Dashboard>
       }
     ]
   },

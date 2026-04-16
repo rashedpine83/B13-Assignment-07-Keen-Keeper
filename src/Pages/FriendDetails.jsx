@@ -16,7 +16,7 @@ import { toast } from 'react-toastify';
 const FriendDetails = () => {
   const { id } = useParams();
   const { friends, loading } = FriendsHook();
- const { addTimeline, setAddTimeline } = useContext(addTimelineContext);
+  const { addTimeline, setAddTimeline } = useContext(addTimelineContext);
 
   const expectedFriend = friends.find((friend) => String(friend.id) === id);
 
@@ -184,107 +184,3 @@ const FriendDetails = () => {
 export default FriendDetails;
 
 
-// import { Link, useParams } from 'react-router';
-// import FriendsHook from '../Hooks/FriendsHook';
-// import callImage from '../assets/call.png';
-// import textImage from '../assets/text.png';
-// import videoImage from '../assets/video.png';
-// import { PiBellZBold } from 'react-icons/pi';
-// import { HiOutlineArchiveBox } from 'react-icons/hi2';
-// import { RiDeleteBin6Line } from 'react-icons/ri';
-// import { addTimelineContext } from '../Context/Context';
-// import { useContext } from 'react';
-// import { PacmanLoader } from 'react-spinners';
-// import { toast } from 'react-toastify';
-
-// const FriendDetails = () => {
-//   const { id } = useParams();
-//   const { friends, loading } = FriendsHook();
-//   const { addTimeline, setAddTimeline } = useContext(addTimelineContext);
-
-//   const expectedFriend = friends.find((f) => String(f.id) === id);
-
-//   if (loading) {
-//     return (
-//       <div className="flex justify-center mt-10">
-//         <PacmanLoader color="#ad46ff" />
-//       </div>
-//     );
-//   }
-
-//   if (!expectedFriend) {
-//     return <p className="text-center mt-10">Friend not found</p>;
-//   }
-
-//   // ✅ FIXED: correct timeline data structure
-//   const handleAddTimeline = (type, image) => {
-//     const newTimeline = {
-//       id: Date.now(),
-//       friendId: expectedFriend.id,
-//       name: expectedFriend.name,
-//       type,
-//       image,
-//       date: new Date().toLocaleString(),
-//     };
-
-//     setAddTimeline((prev) => [...prev, newTimeline]);
-
-//     toast.success(`${type} added to timeline`);
-//   };
-
-//   return (
-//     <div className="container mx-auto mt-10 grid grid-cols-4 gap-3">
-
-//       {/* FRIEND CARD */}
-//       <div className="card shadow-xl p-5 row-span-2">
-//         <img
-//           src={expectedFriend.picture}
-//           className="rounded-full w-24 h-24 mx-auto"
-//         />
-
-//         <h2 className="text-center text-xl font-bold mt-3">
-//           {expectedFriend.name}
-//         </h2>
-
-//         <p className="text-center text-gray-500">
-//           {expectedFriend.email}
-//         </p>
-//       </div>
-
-//       {/* QUICK CHECK-IN */}
-//       <div className="shadow-lg p-4 col-span-3">
-//         <h2 className="text-lg font-semibold mb-4">Quick Check-in</h2>
-
-//         <div className="grid grid-cols-3 gap-4">
-
-//           <div
-//             onClick={() => handleAddTimeline('Call', callImage)}
-//             className="shadow p-4 text-center cursor-pointer"
-//           >
-//             <img src={callImage} className="mx-auto w-10 h-10" />
-//             <p>Call</p>
-//           </div>
-
-//           <div
-//             onClick={() => handleAddTimeline('Text', textImage)}
-//             className="shadow p-4 text-center cursor-pointer"
-//           >
-//             <img src={textImage} className="mx-auto w-10 h-10" />
-//             <p>Text</p>
-//           </div>
-
-//           <div
-//             onClick={() => handleAddTimeline('Video', videoImage)}
-//             className="shadow p-4 text-center cursor-pointer"
-//           >
-//             <img src={videoImage} className="mx-auto w-10 h-10" />
-//             <p>Video</p>
-//           </div>
-
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default FriendDetails;
