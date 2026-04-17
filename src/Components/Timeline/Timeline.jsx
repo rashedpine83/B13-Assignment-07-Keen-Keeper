@@ -27,11 +27,11 @@ const Timeline = () => {
      {filteredTimeline.length > 0 && (
       <input
         type="search"
-        placeholder="Search by name, type, date..."
+        placeholder="Filter Timeline"
         className="border p-3 mb-6 rounded-lg outline-none"
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}/>
-    )};
+    )}
   
       {filteredTimeline.length === 0 
         ? (<p className="text-center text-gray-500 border border-gray-400 p-4 text-3xl">

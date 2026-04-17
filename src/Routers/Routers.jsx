@@ -16,8 +16,7 @@ export const router = createBrowserRouter([
       {
         path: '/',
         element: <HomePage></HomePage>
-      },
-      
+      },      
       {
         path: '/allFriend/:id',
         element: <FriendDetails></FriendDetails>

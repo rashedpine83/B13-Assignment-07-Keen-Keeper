@@ -5,7 +5,7 @@
 **KeenKeeper** is a modern React-based web application designed to help you maintain and nurture your friendships.
 In today’s busy world, it’s easy to lose touch — KeenKeeper ensures you never forget to reconnect with the people who matter most.
 
-Track your interactions, set reminders, and build stronger relationships effortlessly 💙
+Track your interactions, set reminders, and build stronger relationships effortlessly.
 
 ---
 
