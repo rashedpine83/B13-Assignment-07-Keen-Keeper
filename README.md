@@ -1,16 +1,57 @@
-# React + Vite
+#  KeenKeeper — Keep Your Friendships Alive
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+**KeenKeeper** is a modern React-based web application designed to help you maintain and nurture your friendships.
+In today’s busy world, it’s easy to lose touch — KeenKeeper ensures you never forget to reconnect with the people who matter most.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Track your interactions, set reminders, and build stronger relationships effortlessly 💙
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Live Demo
 
-## Expanding the ESLint configuration
+ *(Add your live site link here)*
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Technologies Used
+
+*  React.js
+*  React Router
+*  Tailwind CSS
+*  JavaScript (ES6+)
+*  Context API (State Management)
+*  JSON Data ()
+*  DaisyUI
+
+---
+
+##  Key Features
+
+*  **Friend Management**
+  Add, view, and manage your friends list easily.
+
+*  **Days Since Last Contact**
+  Automatically track how long it’s been since you last connected.
+
+*  **Goal Tracking**
+  Set communication goals.
+
+*  **Search & Filter**
+  Quickly find friends by name, tag, or status.
+
+*  **Smart Status Indicators**
+
+  *  On-Tracking
+  *  Almost Due
+  *  Overdue
+
+*  **Interactive UI**
+  Clean, responsive design for mobile, tablet, and desktop.
+
+*  **Dynamic Timeline**
+  Keep track of interaction history.
+
+---
+
